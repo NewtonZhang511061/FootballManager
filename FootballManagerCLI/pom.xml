@@ -16,11 +16,11 @@
     <dependencies>
         <dependency>
             <groupId>Newton</groupId>
-            <artifactId>footballmanager-application</artifactId>
+            <artifactId>Application</artifactId>
         </dependency>
         <dependency>
             <groupId>Newton</groupId>
-            <artifactId>footballmanager-infrastructure</artifactId>
+            <artifactId>Infrastructure</artifactId>
         </dependency>
 
         <!-- Spring Boot -->
@@ -42,6 +42,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>newton.footballmanager.cli.FootballManagerApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

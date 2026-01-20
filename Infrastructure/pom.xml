@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>Newton</groupId>
-            <artifactId>footballmanager-domain</artifactId>
+            <artifactId>Domain</artifactId>
         </dependency>
 
         <!-- MongoDB -->

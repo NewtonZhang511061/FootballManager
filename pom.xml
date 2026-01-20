@@ -18,10 +18,10 @@
     <description>FootballManager - Clean Architecture Multi-Module Project</description>
 
     <modules>
-        <module>footballmanager-domain</module>
-        <module>footballmanager-application</module>
-        <module>footballmanager-infrastructure</module>
-        <module>footballmanager-adapter</module>
+        <module>Domain</module>
+        <module>Application</module>
+        <module>Infrastructure</module>
+        <module>FootballManagerCLI</module>
     </modules>
 
     <properties>
